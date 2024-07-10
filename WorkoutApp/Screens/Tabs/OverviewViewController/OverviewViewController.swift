@@ -1,5 +1,5 @@
 //
-//  MainViewController.swift
+//  OverviewViewController.swift
 //  WorkoutApp
 //
 //  Created by Kirill Khomicevich on 09.07.2024.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class MainViewController: UIViewController {
+final class OverviewViewController: GeneralViewController {
 
     // MARK: - Private variables
 
@@ -20,18 +20,18 @@ final class MainViewController: UIViewController {
         setupView()
     }
 }
+
 // MARK: - Interface methods
-extension MainViewController {
+extension OverviewViewController {
     
 }
 
 // MARK: - Private setup methods
-private extension MainViewController {
+private extension OverviewViewController {
 
     func setupView() {
         setupAddSubView()
         setupConstraints()
-        setupNavigationController()
         setupSettingsView()
     }
 
@@ -45,21 +45,13 @@ private extension MainViewController {
         
     }
 
-    func setupNavigationController() {
-        guard let navigationController else { return }
-
-        navigationController.navigationBar.setBackgroundImage(UIImage(), for: .default)
-        navigationController.navigationBar.shadowImage = UIImage()
-        navigationController.navigationBar.isTranslucent = true
-        navigationController.navigationBar.tintColor = .white
-    }
-
     func setupSettingsView() {
-        
+        title = "Overview"
+        navigationController?.tabBarItem.title = Tabs.overview.displayName
     }
 }
 
 // MARK: - Objc
-@objc private extension MainViewController {
+@objc private extension OverviewViewController {
 
 }

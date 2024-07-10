@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "tabbar_session_icon.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
