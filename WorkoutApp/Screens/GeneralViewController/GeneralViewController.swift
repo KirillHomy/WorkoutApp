@@ -30,7 +30,7 @@ extension GeneralViewController {
         button.setTitle(title, for: .normal)
         button.setTitleColor(R.color.tabbar_active_tint_color.callAsFunction(), for: .normal)
         button.setTitleColor(R.color.tabbar_inactive_tint_color.callAsFunction(), for: .disabled)
-        button.titleLabel?.font = R.font.helveticaBold.callAsFunction(size: 14.0)
+        button.titleLabel?.font = R.font.helveticaRegular.callAsFunction(size: 17.0)
         switch position {
         case .left:
             button.addTarget(self, action: #selector(navBarLeftButtonHandler), for: .touchUpInside)

@@ -13,6 +13,7 @@
 		8E668D1E2C3DA4FD000B0DCC /* WorkoutApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E668D1C2C3DA4FD000B0DCC /* WorkoutApp.xcdatamodeld */; };
 		8E668D202C3DA4FE000B0DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E668D1F2C3DA4FE000B0DCC /* Assets.xcassets */; };
 		8E668D232C3DA4FE000B0DCC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8E668D222C3DA4FE000B0DCC /* Base */; };
+		8EB0AB552C602164000BA581 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB0AB542C602164000BA581 /* SecondaryButton.swift */; };
 		8EE4BA532C3ECCB9005BC1C5 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 8EE4BA522C3ECCB9005BC1C5 /* Then */; };
 		8EE4BA562C3ECCC3005BC1C5 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8EE4BA552C3ECCC3005BC1C5 /* SnapKit */; };
 		8EE4BA592C3ECCCD005BC1C5 /* RswiftLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 8EE4BA582C3ECCCD005BC1C5 /* RswiftLibrary */; };
@@ -43,6 +44,7 @@
 		8E668D1F2C3DA4FE000B0DCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E668D222C3DA4FE000B0DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E668D242C3DA4FE000B0DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EB0AB542C602164000BA581 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 		8EE4BA662C3ED686005BC1C5 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		8EE4BA6C2C3EF4F4005BC1C5 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 		8EE4BA712C3EF71C005BC1C5 /* helvetica_lightoblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = helvetica_lightoblique.otf; sourceTree = "<group>"; };
@@ -133,6 +135,14 @@
 			path = Screens;
 			sourceTree = "<group>";
 		};
+		8EB0AB532C602101000BA581 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8EB0AB542C602164000BA581 /* SecondaryButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		8EE4BA652C3ED66C005BC1C5 /* CustomTabBarController */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +154,7 @@
 		8EE4BA6A2C3EDAA9005BC1C5 /* OverviewViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8EB0AB532C602101000BA581 /* Views */,
 				8E668D172C3DA4FD000B0DCC /* OverviewViewController.swift */,
 			);
 			path = OverviewViewController;
@@ -330,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB0AB552C602164000BA581 /* SecondaryButton.swift in Sources */,
 				8EE4BA892C3EF8C9005BC1C5 /* UIView+Ext.swift in Sources */,
 				8EE4BA6D2C3EF4F4005BC1C5 /* CustomNavigationController.swift in Sources */,
 				8EE4BA962C3EFB4D005BC1C5 /* SettingsViewController.swift in Sources */,
